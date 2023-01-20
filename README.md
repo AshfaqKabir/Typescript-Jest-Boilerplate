@@ -1,16 +1,16 @@
-# Vanilla Typescript Jest Boilerplate [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+# Vanilla Typescript Jest Boilerplate - [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 #### A Code Boilerplate Setup for Vanilla Typescript and Jest for Testing
 
 ## Getting Started
 
-#### Clone The Typescript Jest Boilerplate
+##### Clone The Typescript Jest Boilerplate
 
 ```bash
 git clone https://github.com/AshfaqKabir/Typescript-Jest-Boilerplate.git
 ```
 
-#### Go to the project directory
+##### Go to the project directory
 
 ```bash
   cd project-folder
