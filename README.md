@@ -36,7 +36,7 @@ export const substract = (x: number, y: number): number => {
 }
 ```
 
-##### Create File `substract.test.ts` in `src/__tests__` directory
+##### Create New File `substract.test.ts` in `src/__tests__` directory
 
 ```code
 import { substract } from "../substract";
