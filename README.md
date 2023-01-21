@@ -28,7 +28,7 @@ git clone https://github.com/AshfaqKabir/Typescript-Jest-Boilerplate.git
  yarn start
 ```
 
-##### Go to `src/` create new file `substarct.ts`
+##### Go to `src/` create new file `substract.ts`
 
 ```code
 export const substract = (x: number, y: number): number => {
