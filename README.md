@@ -28,23 +28,51 @@ git clone https://github.com/AshfaqKabir/Typescript-Jest-Boilerplate.git
  yarn start
 ```
 
-##### Run Jest Tests
+##### Go to `src/` create new file `substarct.ts`
+
+```code
+export const substract = (x: number, y: number): number => {
+  return x - y
+}
+```
+
+##### Create File `substract.test.ts` in `src/__tests__` directory
+
+```code
+import { substract } from "../substract";
+
+describe("test substract function", () => {
+  it("should return 5 for substract(10,5)", () => {
+    expect(substract(10, 5)).toBe(5);
+  });
+
+  it("should return 7 for substract(14,7)", () => {
+    expect(substract(14, 7)).toBe(7);
+  });
+});
+}
+```
+
+##### Run The Jest Tests
 
 ```bash
  yarn test
 ```
 
 ### Advanced
+
 ##### To create coverage report
 
 ```bash
 npm run test:coverage or yarn test:coverage
 ```
+
 ##### To to build the project
+
 ```bash
 npm run build or yarn build
 ```
 
 ## Author
 
-Follow [@AshfaqKabir](https://github.com/AshfaqKabir) 
+Follow [@AshfaqKabir](https://github.com/AshfaqKabir)
