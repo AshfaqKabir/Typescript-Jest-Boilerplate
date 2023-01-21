@@ -50,7 +50,6 @@ describe("test substract function", () => {
     expect(substract(14, 7)).toBe(7);
   });
 });
-}
 ```
 
 ##### Run The Jest Tests
